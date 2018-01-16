@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  margin:0;
+  height:100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  color: #312d60;
+  font-family: 'Raleway', sans-serif;
+}

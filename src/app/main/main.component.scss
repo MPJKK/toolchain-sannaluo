@@ -1,0 +1,22 @@
+div {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 45rem;
+  width:100%;
+}
+main{
+  width: 65%;
+  background-color: #fce8ff;
+  margin: 1rem;
+}
+aside{
+  width: 35%;
+  background-color: #e8d5ff;
+  margin: 1rem;
+}
+:host{
+  display: flex;
+  width:100%;
+}

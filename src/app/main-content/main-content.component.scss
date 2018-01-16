@@ -1,0 +1,14 @@
+div{
+  text-align:center;
+  margin-top:3rem;
+}
+img:hover {
+  animation-name: sivukaannos;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+
+@keyframes sivukaannos{
+  50%{transform: rotateY(180deg);}
+}
